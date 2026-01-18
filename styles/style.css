@@ -25,6 +25,9 @@
 .text-center{
      text-align: center;
 }
+main section{
+     margin-top: 8rem;
+}
 /* navbar styles  */
 
 .navbar{
@@ -75,15 +78,58 @@ nav li a{
      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-/* footer section styles  */
+/* meet the host section styles  */
+.host{
+     margin-bottom: 120px;
+}
+.secondary-bg{
+     background-color: rgb(37,13,68);
+     border-radius: 1.5rem;
+}
+.section-title{
+     margin-top: 7rem;
+     font-size: 3rem;
+     font-weight: 700;
+     margin-bottom: 3rem;
+}
+.host-info-container{
+     display: flex;
+     align-items: center;
+     /* gap: 1rem; */
+}
+.host-img{
+      padding: 40px 24px 40px 40px;
+}
+.host-name{
+     font-size: 2rem;
+     font-weight: 700;
+     margin-bottom: 1rem;
+}
+.host-description{
+     font-size: 1rem;
+     font-weight: 400;
+}
+.host-social-link{
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     margin-top: 1rem;
+}
+
+
+
+                              /* footer section styles  */
 
 .footer-bg{
      background-image: url(../assets/footer-bg.png);
 }
 
 .footer-title{
+     font-size: 4rem;
      padding-top: 6rem;
      margin-bottom: 2rem;
+     margin-left: 2rem;
+     padding-left: 85px;
 }
 .footer-title span {
      background: linear-gradient(90deg,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
@@ -93,7 +139,8 @@ nav li a{
 .social-link{
      display: flex;
      gap: 40px;
-     margin-left: 400px; 
+     margin-left: 420px; 
+     padding-bottom: 2rem;
 }
 
 .social-media-name{
@@ -102,9 +149,9 @@ nav li a{
 }
 
 .copyright{
-     margin-top: 2rem;
+     margin-top: 1.5rem;
      padding-bottom: 7.5rem;
-     padding-left: 80px;
+     padding-left: 115px;
 }
 
 /* Responsive Media query  */
