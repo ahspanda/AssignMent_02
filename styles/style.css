@@ -63,9 +63,31 @@ nav li a{
 .subscribe-btn:hover{
      box-shadow: 0 8px 20px rgba(255, 60, 172, 0.4);
 }
+.none{
+     display: none;
+}
 .nav-link a:hover {
   color: #ff3cac;
 }
 .hr-line{
      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+/* Responsive Media query  */
+
+               /* navbar responsive  */
+
+/* small device  */
+@media screen and (max-width: 576px) {
+     .nav-link, .subscribe-btn{
+          display: none;
+     }
+     .none{
+          display: block;
+          margin-right: 1rem;
+     }
+     .nav-title{
+          margin-left: 1rem;
+     }
 }
