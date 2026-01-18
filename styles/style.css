@@ -22,7 +22,9 @@
      background-color:#1A0B2E ;
      color: #ffffff;
 }
-
+.text-center{
+     text-align: center;
+}
 /* navbar styles  */
 
 .navbar{
@@ -73,6 +75,37 @@ nav li a{
      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+/* footer section styles  */
+
+.footer-bg{
+     background-image: url(../assets/footer-bg.png);
+}
+
+.footer-title{
+     padding-top: 6rem;
+     margin-bottom: 2rem;
+}
+.footer-title span {
+     background: linear-gradient(90deg,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social-link{
+     display: flex;
+     gap: 40px;
+     margin-left: 400px; 
+}
+
+.social-media-name{
+     font-size: 1rem;
+     font-weight: 500;
+}
+
+.copyright{
+     margin-top: 2rem;
+     padding-bottom: 7.5rem;
+     padding-left: 80px;
+}
 
 /* Responsive Media query  */
 
