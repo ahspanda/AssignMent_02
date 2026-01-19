@@ -44,6 +44,11 @@ main section{
 .secondary-bg{
      background-color: rgb(37,13,68);
 }
+.flex{
+     display: flex;
+     align-items: center;
+     gap: 8px;
+}
 
                                    /* navbar styles  */
 
@@ -148,26 +153,34 @@ nav li a{
 
 }
 
+ /* Featured episod section  */
 
+ .featured-episods{
+     display: flex;
+     /* flex-wrap: wrap; */
+     gap: 30px;
 
+ }
+.episod{
+     background-color: rgb(45, 18, 79);
+     border-radius: 18px;
+     padding: 30px;
+     width: 380px;
 
+}
+ .episod-title{
+     font-size: 24px;
+     font-weight: bold;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ .episod-description{
+     font-size: 1rem;
+     font-weight: 400;
+     margin-bottom: 10px;
+     color: rgba(255, 255, 255, 0.6);
+ }
 
                               /* about the podcast styles  */
 
