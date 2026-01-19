@@ -41,6 +41,10 @@ main section{
      color: rgba(255, 255, 255, 0.6);
 }
 
+.secondary-bg{
+     background-color: rgb(37,13,68);
+}
+
                                    /* navbar styles  */
 
 .navbar{
@@ -93,6 +97,78 @@ nav li a{
 .secondary-color{
      color: rgba(255, 255, 255, 0.6);
 }
+
+/* banner styles  */
+
+.why-techwave-bg{
+     background-color: rgb(35, 14, 61);
+}
+.banner-title{
+     font-size: 3rem;
+     font-weight: 700;
+     padding-top: 7rem;
+     padding-bottom: 40px;
+     margin-top: 7rem;
+     margin-bottom: 3rem;
+}
+.cards-container{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+     padding-bottom: 120px;
+}
+
+.card{
+     /* background-color: rgb(37,13,68); */
+     background-color: rgb(45, 18, 79);
+     border-radius: 1rem;
+     padding: 40px;
+}
+.card-title{
+     font-size: 24px;
+     font-weight: bold;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.card-description{
+     font-size: 1rem;
+     font-weight: 400;
+     color: rgba(255, 255, 255, 0.6);
+
+}
+#card-1{
+     grid-row: span 2;
+}
+#card-2, #card-3{
+     grid-column: span 2;
+}
+#card-4{
+     grid-column: span 2;
+     background: linear-gradient(135deg, #12061f, #1f0b35);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                               /* about the podcast styles  */
 
 
@@ -124,15 +200,14 @@ nav li a{
 .host{
      margin-bottom: 120px;
 }
-.secondary-bg{
-     background-color: rgb(37,13,68);
-     border-radius: 1.5rem;
-}
 
 .host-info-container{
      display: flex;
      align-items: center;
      /* gap: 1rem; */
+}
+.host-bg{
+     background-color: rgb(45, 18, 79);
 }
 .host-img{
       padding: 40px 24px 40px 40px;
@@ -146,6 +221,7 @@ nav li a{
      font-size: 1rem;
      font-weight: 400;
      margin-bottom: 10px;
+     color: rgba(255, 255, 255, 0.6);
 }
 .host-social-link{
      display: flex;
@@ -154,7 +230,9 @@ nav li a{
      margin-top: 1rem;
 }
 
-
+#border-radius{
+     border-radius: 1.5rem;
+}
                               /* footer section styles  */
 
 .footer-bg{
@@ -186,12 +264,14 @@ nav li a{
 .social-media-name{
      font-size: 1rem;
      font-weight: 500;
+     color: rgba(255, 255, 255, 0.6);
 }
 
 .copyright{
      margin-top: 1.5rem;
      padding-bottom: 7.5rem;
      padding-left: 115px;
+     color: rgba(255, 255, 255, 0.6);
 }
 
 /* Responsive Media query  */
