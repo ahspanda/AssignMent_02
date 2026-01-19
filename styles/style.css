@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* shared style  */
+                                   /* shared style  */
 *{
      margin: 0;
      padding: 0;
@@ -38,9 +38,10 @@ main section{
 .section-description{
      font-size: 1rem;
      font-weight: 400;
+     color: rgba(255, 255, 255, 0.6);
 }
 
-/* navbar styles  */
+                                   /* navbar styles  */
 
 .navbar{
      display: flex;
@@ -89,15 +90,37 @@ nav li a{
 .hr-line{
      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
-
-/* about the podcast styles  */
+.secondary-color{
+     color: rgba(255, 255, 255, 0.6);
+}
+                              /* about the podcast styles  */
 
 
 .podcast-section-description{
      margin-bottom: 10px;
+     color: rgba(255, 255, 255, 0.6);
 }
-
-/* meet the host section styles  */
+#hr-margin{
+     margin-top: 40px;
+     margin-bottom: 40px;
+}
+.stats{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.stats-title{
+     font-size: 2rem;
+     font-weight: 800;
+     color: #00FF88;
+}
+.stats-description{
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 1rem;
+     font-weight: 400;
+     margin-top: 10px;
+}
+                              /* meet the host section styles  */
 .host{
      margin-bottom: 120px;
 }
@@ -122,6 +145,7 @@ nav li a{
 .host-description{
      font-size: 1rem;
      font-weight: 400;
+     margin-bottom: 10px;
 }
 .host-social-link{
      display: flex;
@@ -129,7 +153,6 @@ nav li a{
      gap: 8px;
      margin-top: 1rem;
 }
-
 
 
                               /* footer section styles  */
