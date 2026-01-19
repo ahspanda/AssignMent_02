@@ -28,6 +28,18 @@
 main section{
      margin-top: 8rem;
 }
+
+.section-title{
+     margin-top: 7rem;
+     font-size: 3rem;
+     font-weight: 700;
+     margin-bottom: 3rem;
+}
+.section-description{
+     font-size: 1rem;
+     font-weight: 400;
+}
+
 /* navbar styles  */
 
 .navbar{
@@ -78,6 +90,13 @@ nav li a{
      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+/* about the podcast styles  */
+
+
+.podcast-section-description{
+     margin-bottom: 10px;
+}
+
 /* meet the host section styles  */
 .host{
      margin-bottom: 120px;
@@ -86,12 +105,7 @@ nav li a{
      background-color: rgb(37,13,68);
      border-radius: 1.5rem;
 }
-.section-title{
-     margin-top: 7rem;
-     font-size: 3rem;
-     font-weight: 700;
-     margin-bottom: 3rem;
-}
+
 .host-info-container{
      display: flex;
      align-items: center;
@@ -122,6 +136,9 @@ nav li a{
 
 .footer-bg{
      background-image: url(../assets/footer-bg.png);
+     /* background-repeat: no-repeat;
+     background-size: cover;
+     background-position-x: left; */
 }
 
 .footer-title{
