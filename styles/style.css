@@ -135,7 +135,7 @@ nav li a{
 }
 
 .banner-title{
-     margin-top: 7rem;
+     margin-top: 3rem;
      font-size: 3rem;
      font-weight: 700;
      margin-bottom: 1rem;
@@ -150,6 +150,7 @@ nav li a{
           display: flex;
           gap: 5px;
           margin-left: 10px;
+          justify-content: center;
 }
  .button{
           display: flex;
@@ -351,6 +352,8 @@ nav li a{
 }
 .social-link{
      display: flex;
+     /* display: grid;
+     grid-template-columns: repeat(2, 1fr); */
      justify-content: center;
      gap: 40px;
      padding-bottom: 2rem;
@@ -430,3 +433,21 @@ nav li a{
           padding: 8px 10px 8px 12px;
      }
 }
+
+/* footer section responsiveness  */
+@media screen and (max-width: 576px) {
+
+     .footer-title{
+          padding-top: 2rem;
+          padding-right: 40px;
+     }
+     .social-link{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          margin-bottom: -30px;
+     }
+     .copyright{
+           padding: 0px 20px 40px;
+     }
+}
+
