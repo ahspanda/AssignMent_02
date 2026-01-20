@@ -50,7 +50,7 @@ main section{
      gap: 8px;
 }
 
-                                   /* navbar styles  */
+                                                             /* navbar styles  */
 
 .navbar{
      display: flex;
@@ -105,10 +105,105 @@ nav li a{
 
 /* banner styles  */
 
+.hero-background{
+     background-image: url(../assets/hero-bg.png);
+}
+.hero-circle{
+     margin-left: -60px;
+}
+.hero-microphone{
+     margin-left: -240px;
+     margin-bottom: 90px;
+}
+.hero-circle{
+     margin-top: 100px;
+}
+.new-btn{
+     background-color: #00FF88;
+     font-size: 18px;
+     font-weight: 600;
+     padding: 8px 16px;
+     border: none;
+     border-radius: 20px;
+     position: relative;
+     top: -310px;
+     
+     /* margin-left: -240px; */
+     /* margin-bottom: 290px; */
+
+}
+.banner-title{
+     margin-top: 7rem;
+     font-size: 3rem;
+     font-weight: 700;
+     margin-bottom: 1rem;
+}
+.banner-description{
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 1rem;
+     font-weight: 400;
+     margin-bottom: 5px;
+}
+.listen-spotify-btn{
+     border: none;
+     border-radius: 25px;
+     font-size: 1rem;
+     font-weight: 500;
+     color: #ffffff;
+     padding: 12px 40px 12px 16px;
+     margin-top: 20px;
+     background: linear-gradient(90deg,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
+     cursor: pointer;
+}
+
+.banner-subscribe-btn{
+     background: transparent ;
+     border: 1px solid #00FF88 ;
+     border-radius: 20px;
+     color: #00FF88;
+     font-size: 1rem;
+     font-weight: 600;
+     padding: 12px 40px 12px 16px;
+     margin-top: 20px;
+     margin-left: 8px;
+     cursor: pointer;
+}
+
+                                                    /* about the podcast styles  */
+
+
+.podcast-section-description{
+     margin-bottom: 10px;
+     color: rgba(255, 255, 255, 0.6);
+}
+#hr-margin{
+     margin-top: 40px;
+     margin-bottom: 40px;
+}
+.stats{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.stats-title{
+     font-size: 2rem;
+     font-weight: 800;
+     color: #00FF88;
+}
+.stats-description{
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 1rem;
+     font-weight: 400;
+     margin-top: 10px;
+}
+
+
+                                                                           /* why techwave styles  */
+
 .why-techwave-bg{
      background-color: rgb(35, 14, 61);
 }
-.banner-title{
+.why-techwave-title{
      font-size: 3rem;
      font-weight: 700;
      padding-top: 7rem;
@@ -153,7 +248,7 @@ nav li a{
 
 }
 
- /* Featured episod section  */
+                                                                                /* Featured episod section  */
 
  .featured-episods{
      display: flex;
@@ -182,34 +277,9 @@ nav li a{
      color: rgba(255, 255, 255, 0.6);
  }
 
-                              /* about the podcast styles  */
 
+                                                 /* meet the host section styles  */
 
-.podcast-section-description{
-     margin-bottom: 10px;
-     color: rgba(255, 255, 255, 0.6);
-}
-#hr-margin{
-     margin-top: 40px;
-     margin-bottom: 40px;
-}
-.stats{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-}
-.stats-title{
-     font-size: 2rem;
-     font-weight: 800;
-     color: #00FF88;
-}
-.stats-description{
-     color: rgba(255, 255, 255, 0.6);
-     font-size: 1rem;
-     font-weight: 400;
-     margin-top: 10px;
-}
-                              /* meet the host section styles  */
 .host{
      margin-bottom: 120px;
 }
@@ -246,13 +316,11 @@ nav li a{
 #border-radius{
      border-radius: 1.5rem;
 }
-                              /* footer section styles  */
+                                                  /* footer section styles  */
 
 .footer-bg{
      background-image: url(../assets/footer-bg.png);
-     /* background-repeat: no-repeat;
-     background-size: cover;
-     background-position-x: left; */
+     
 }
 
 .footer-title{
@@ -287,7 +355,7 @@ nav li a{
      color: rgba(255, 255, 255, 0.6);
 }
 
-/* Responsive Media query  */
+                                                            /* Responsive Media query  */
 
                /* navbar responsive  */
 
