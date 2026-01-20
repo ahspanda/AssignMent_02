@@ -139,7 +139,15 @@ nav li a{
      font-size: 3rem;
      font-weight: 700;
      margin-bottom: 1rem;
+     transition: letter-spacing 0.4s ease-in-out, opacity 0.3s ease;
+     
 }
+
+.banner-title:hover {
+    letter-spacing: 4px; /* Spreads the letters out */
+    opacity: 0.8;
+}
+
 .banner-description{
      color: rgba(255, 255, 255, 0.6);
      font-size: 1rem;
@@ -273,7 +281,13 @@ nav li a{
      border-radius: 18px;
      padding: 30px;
      width: 380px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     cursor: pointer;
+}
 
+.episod:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
  .episod-title{
      font-size: 24px;
