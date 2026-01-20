@@ -218,7 +218,7 @@ nav li a{
 }
 
 
-                                                                           /* why techwave styles  */
+                                             /* why techwave styles  */
 
 .why-techwave-bg{
      background-color: rgb(35, 14, 61);
@@ -226,10 +226,10 @@ nav li a{
 .why-techwave-title{
      font-size: 3rem;
      font-weight: 700;
-     padding-top: 7rem;
+     padding-top: 5rem;
      padding-bottom: 40px;
-     margin-top: 7rem;
-     margin-bottom: 3rem;
+     /* margin-top: 2rem; */
+     margin-bottom: 1.5rem;
 }
 .cards-container{
      display: grid;
@@ -268,7 +268,7 @@ nav li a{
 
 }
 
-                                                                                /* Featured episod section  */
+                                                         /* Featured episod section  */
 
  .featured-episods{
      display: flex;
@@ -407,8 +407,6 @@ nav li a{
 }
 
 
-
-
                /* banner section responsive  */
 
 @media screen and (max-width: 576px) {
@@ -460,12 +458,20 @@ nav li a{
           grid-template-columns: repeat(2, 1fr);
           text-align: center;
           gap: 20px;
+          margin-bottom: -70px;
      } 
+     .stats-description{
+     }
 }
 
 /* why choose techwave section   */
 @media screen and (max-width:576px) {
 
+     .why-techwave-title{
+          margin-bottom: -1rem;
+          font-size: 32px;
+          padding-top: 30px;
+     }     
      .cards-container{
                display: grid;
                grid-template-columns: 1fr;
@@ -487,6 +493,10 @@ nav li a{
 
  @media screen and (max-width:576px) {
 
+     .section-title{
+          margin-top: 2rem;
+          font-size: 32px; 
+     }
       .host-info-container{
           display: flex;
           flex-direction: column;
@@ -514,6 +524,7 @@ nav li a{
      .footer-title{
           padding-top: 2rem;
           padding-right: 40px;
+          margin-top: -72px;
      }
      .social-link{
           display: grid;
