@@ -107,16 +107,21 @@ nav li a{
 
 .hero-background{
      background-image: url(../assets/hero-bg.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
 }
 .hero-circle{
      margin-left: -60px;
 }
 .hero-microphone{
+     width: auto;
      margin-left: -240px;
      margin-bottom: 90px;
 }
 .hero-circle{
      margin-top: 100px;
+     width: auto;
 }
 .new-btn{
      background-color: #00FF88;
@@ -320,6 +325,9 @@ nav li a{
 
 .footer-bg{
      background-image: url(../assets/footer-bg.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
      
 }
 
@@ -328,7 +336,7 @@ nav li a{
      padding-top: 6rem;
      margin-bottom: 2rem;
      margin-left: 2rem;
-     padding-left: 85px;
+     padding-right: 25px;
 }
 .footer-title span {
      background: linear-gradient(90deg,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
@@ -337,8 +345,8 @@ nav li a{
 }
 .social-link{
      display: flex;
+     justify-content: center;
      gap: 40px;
-     margin-left: 420px; 
      padding-bottom: 2rem;
 }
 
@@ -351,7 +359,7 @@ nav li a{
 .copyright{
      margin-top: 1.5rem;
      padding-bottom: 7.5rem;
-     padding-left: 115px;
+     padding-left: 5px;
      color: rgba(255, 255, 255, 0.6);
 }
 
