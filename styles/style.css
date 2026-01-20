@@ -434,6 +434,19 @@ nav li a{
      }
 }
 
+
+
+
+/* about the podcas section responsiveness  */
+@media screen and (max-width:576px) {
+     .stats{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          text-align: center;
+          gap: 20px;
+     } 
+}
+
 /* footer section responsiveness  */
 @media screen and (max-width: 576px) {
 
