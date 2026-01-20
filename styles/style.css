@@ -132,11 +132,8 @@ nav li a{
      border-radius: 20px;
      position: relative;
      top: -310px;
-     
-     /* margin-left: -240px; */
-     /* margin-bottom: 290px; */
-
 }
+
 .banner-title{
      margin-top: 7rem;
      font-size: 3rem;
@@ -149,6 +146,15 @@ nav li a{
      font-weight: 400;
      margin-bottom: 5px;
 }
+ .btn-container{
+          display: flex;
+          gap: 5px;
+          margin-left: 10px;
+}
+ .button{
+          display: flex;
+          gap: 5px;
+     }
 .listen-spotify-btn{
      border: none;
      border-radius: 25px;
@@ -378,5 +384,49 @@ nav li a{
      }
      .nav-title{
           margin-left: 1rem;
+     }
+}
+
+
+
+
+               /* banner section responsive  */
+
+@media screen and (max-width: 576px) {
+     .banner{
+          margin-top: -80px;
+          padding-left: 10px;
+     }
+     .banner-title{
+           margin-top: 1rem; 
+     }
+     .btn-container{
+          display: flex;
+          gap: 5px;
+          margin-left: 10px;
+     }
+     .button{
+          display: flex;
+          gap: 5px;
+     }
+     .listen-spotify-btn{
+          border: none;
+          border-radius: 25px;
+          font-size: 1rem;
+          font-weight: 400;
+          color: #ffffff;
+          padding: 12px 40px 12px 16px;
+          cursor: pointer;
+     }
+     .spotify-btn-text{
+          margin-left: 5px;
+          /* margin-bottom: px; */
+          padding-bottom: 20px;
+     }
+     .banner-subscribe-btn{
+          margin-left: 2px;
+          font-size: 16px;
+          font-weight: 400;
+          padding: 8px 10px 8px 12px;
      }
 }
