@@ -447,7 +447,27 @@ nav li a{
      } 
 }
 
-/* footer section responsiveness  */
+/* why choose techwave section   */
+@media screen and (max-width:576px) {
+
+     .cards-container{
+               display: grid;
+               grid-template-columns: 1fr;
+               width: 350px;
+           }
+}
+
+/* Featured episod section  */
+@media screen and (max-width:576px) {
+     .featured-episods{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          padding:20px;
+      }
+ }
+
+/* footer section   */
 @media screen and (max-width: 576px) {
 
      .footer-title{
